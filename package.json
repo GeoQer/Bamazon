@@ -1,0 +1,16 @@
+{
+  "name": "bamazon",
+  "version": "1.0.0",
+  "description": "node and MySQL ecommerce",
+  "main": "bamazon.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "6.2.0",
+    "mysql": "2.16.0",
+    "table": "5.1.0"
+  }
+}
