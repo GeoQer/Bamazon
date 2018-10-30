@@ -17,7 +17,7 @@ connection.connect(function(err){
 });
 
 function start() {
-
+//this code is not correct. It still needs to be adapted to this project.
     inquirer
       .prompt({
         name: "postOrBid",
