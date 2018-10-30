@@ -1,6 +1,6 @@
 let mysql = require("mysql");
 let inquirer = require("inquirer");
-let table = require("table");
+let table = require("console.table");
 
 let connection = mysql.createConnection({
     host: "localhost",
@@ -18,6 +18,7 @@ connection.connect(function(err){
 
 function start() {
 //this code is not correct. It still needs to be adapted to this project.
+
     inquirer
       .prompt({
         name: "postOrBid",
